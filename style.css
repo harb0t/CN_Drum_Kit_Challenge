@@ -1,0 +1,7 @@
+.drum {
+    background: url(images/testDrum.jpg) no-repeat;
+    cursor: pointer;
+    width: 300px;
+    height: 200px;
+    border: none;
+  }

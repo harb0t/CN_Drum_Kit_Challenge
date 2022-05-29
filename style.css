@@ -1,7 +1,103 @@
-.drum {
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+
+
+body {
+margin-left: 200px;
+margin-right: 200px;
+display: flex;
+flex-direction: column;
+background-color: black;
+align-items: center;
+color: aliceblue;
+}
+
+h1{
+size: 100%;
+font-family: 'Cabin Sketch', cursive;
+}
+
+
+/* .pageTitle{
+text-align: center;
+size: 100%;
+} */
+
+/* .drumBtn{
+  width: 200px;
+  padding: 5px,5px, 5px, 5px,;
+  height: 200px;
+} */
+.drumBtn {
+  margin: 5px;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #3a3a3a;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Cabin Sketch', cursive;
+  box-shadow: 0 9px #999;
+}
+
+.drumBtn:hover {
+  background-color: #99ff93
+
+}
+
+.drumBtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+}
+
+.drumBtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+}
+
+.drumBtn:hover span {
+  padding: 5px;
+}
+
+
+
+.drumBtn:active {
+  background-color: #ff0000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.buttonBox {
+  size: 100%;
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-family: 'Cabin Sketch', cursive;
+  
+}
+
+/* #a {
     background: url(images/testDrum.jpg) no-repeat;
     cursor: pointer;
     width: 300px;
     height: 200px;
     border: none;
-  }
+  } */
+
+  .animate{
+    background-color: #ff0000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    }
